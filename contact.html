@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Logo/Logo1.jpg">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+     <img  height="100"  src="Logo/Logo1.jpg" alt="Logo">
+            </div>
+            <div class="main">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    </div>
+        </nav>
+    </header>
+    <h1>  CONTACT <span style="color: blue;">US</span></h1> 
+<div class="information">
+    <form action="">
+
+<label for="">Name</label> <br>
+<input type="text" placeholder="Enter your name." required> <br>
+<label for="">Email</label> <br>
+<input type="email" placeholder="Enter your email." required> <br>
+<label for="">Phone</label> <br>
+<input type="tel" placeholder="Enter your phone number." required> <br>
+<label for="">Message</label> <br>
+<textarea name="" id="" cols="30" rows="10" placeholder=" Message..."></textarea> <br> <br>
+<button type="submit">Submit</button>
+    </form>
+</div>
+<div class="background-color">
+
+    <h4>Change The Background</h4> <br>
+ <select onchange="color(this.value)">
+     <option value="black">black</option>
+     <option value="red">red</option>
+     <option value="green">green</option>
+ </select>
+ <script>
+     function color(value)
+     {
+         document.body.style.backgroundColor=value;
+     }
+ </script>
+ </div>
+<footer>
+    <h4>&copy;MOUKALA241 - All Rights Reserved.</h4>
+</footer>
+</body>
+</html>

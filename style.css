@@ -1,0 +1,117 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+  background-color: #988885; 
+  color:white;
+  transition:all 1.5s ease-in-out;
+    
+}
+header{
+background: rgb(34,193,195); 
+height:100px;
+}
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+a{
+margin: 14px 18px;
+font-size: 20px;
+font-weight: bolder;
+text-decoration: none;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+text-align: center;
+margin-top: 35px;
+font-size: 45px;
+}
+.information{
+margin-top:30px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+form{
+padding:30px;
+border: 1px solid;
+border-radius: 30px;
+box-shadow: 0 0 10px grey;
+background-color: teal;
+}
+input{
+padding:10px;
+}
+label{
+font-size: 18px;
+font-weight: bolder;
+}
+button{
+padding: 10px 15px;
+background-color:blue;
+border: 1px solid white;
+color:white;
+}
+footer{
+margin-top: 30px;
+background: rgb(34,193,195); 
+display: flex;
+justify-content: center;
+align-items: center;
+padding:20px;
+}
+.CAR{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+figcaption{
+    margin-top: 30px;
+text-align: center;
+}
+
+.HOUSE{
+display: flex;
+justify-content: space-around;
+align-items: center;   
+}
+
+h2{
+margin-top: 50px;
+text-align: center;
+margin-bottom: 30px;
+}
+
+hr{
+margin-top: 30px;
+margin-bottom: 30px;
+width: 50%;
+margin-left: 25%;
+}
+
+.CAR img{
+box-shadow: 0 0 10px white;
+}
+.HOUSE img{
+    box-shadow: 0 0 10px white;
+    }
+
+.PART1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+select{
+padding:5px;
+}
+
+.background-color{
+margin-top: 30px;
+margin-left: 20px;
+}
